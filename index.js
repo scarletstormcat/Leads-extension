@@ -30,6 +30,7 @@ function render(leads) {
                 <button class="mini-button" onClick="deleteLead(${i})">delete</button>
             </li>
         ` 
+        console.log("lead rendered")
     }
     ulEl.innerHTML = listItems
 }

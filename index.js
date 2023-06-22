@@ -36,6 +36,7 @@ function render(leads) {
 
 
 function deleteLead(thisLead) {
+    console.log("pressed delete btn")
     delete myLeads[thisLead]
     myLeads = myLeads.filter(function(x) {
             return x !== undefined
